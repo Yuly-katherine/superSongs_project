@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="icon"
+      href="https://supersimple.com/wp-content/themes/mike-default/favicon.png"
+    />
+    <!-- animate-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- boostrap -->
+    <link rel="stylesheet" href="../boostrapmincss/bootstrap.min(sketchy).css" />
+    <link rel="stylesheet" href="../styles.css" />
+
+    <!-- boostrap icons -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Super Simple Songs</title>
+  </head>
+  <body>
+    <header>
+      <!--------------------------  navbar ----------------------------------->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://supersimple.com/wp-content/uploads/logo-home.png" width="250px" alt="superSongs"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 wow animate__animated animate__rubberBand">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#songs">songs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="search-song">
+          <h2 class="search-song__title wow animate__animated animate__rubberBand">SUPER SIMPLE SONGS</h2>
+          <p class="search-song__p wow animate__animated animate__rubberBand">
+            Super Simple Songs® is a collection of original kids songs and
+            classic nursery rhymes made SIMPLE for young learners. Combining
+            captivating animation and puppetry with delightful music that kids
+            love to sing along with, Super Simple Songs makes learning simple
+            and fun!
+          </p>
+          <div class="search-song__inputs d-flex justify-content-between wow animate__animated animate__rubberBand">
+            <!------------------  search -------------->
+            <form class=" search d-flex " role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            <!------------------  select -------------->
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Choose a theme</option>
+                <option value="1">Colors</option>
+                <option value="2">Clothing</option>
+                <option value="3">Animals</option>
+                <option value="3">Bugs</option>
+                <option value="3">Calendar & time</option>
+              </select>
+            <!------------------  select -------------->
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Choose a playist</option>
+                <option value="1">Songs about overcoming fears</option>
+                <option value="2">Chants</option>
+                <option value="3">Silly songs</option>
+                <option value="3">Cumulative songs</option>
+              </select>
+          </div>
+        </div>
+      </section>
+      <section id="songs">
+        <h1 class="songs-title wow animate__animated animate__swing">All songs</h1>
+         <!------------------ table -------------->
+         <div class="table-songs">
+          <table class="table table-success table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Theme</th>
+                <th scope="col">Playist</th>
+                <th scope="col">Singer</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Happy Birthday To You</td>
+                <td>Choosing Rhymes</td>
+                <td>all team</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Pizza Party | featuring Caitie</td>
+                <td>Choosing Rhymes</td>
+                <td>all team</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>The Fish Go Swimming</td>
+                <td>Circletime Songs</td>
+                <td>all team</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>What's Your Name? (Finny the Shark)</td>
+                <td>Cumulative Songs</td>
+                <td>all team</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>500 Ducks</td>
+                <td>Choosing Rhymes</td>
+                <td>pipo</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>We're Going On A Rocket Ship</td>
+                <td>Circletime Songs</td>
+                <td>all team</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>TABC Song Speeding Up</td>
+                <td>Choosing Rhymes</td>
+                <td>pipo</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Let's Go For A Swim Outside (Finny the Shark)</td>
+                <td>Circletime Songs</td>
+                <td>lucy</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>Crawl Like A Caterpillar</td>
+                <td>Choosing Rhymes</td>
+                <td>lucy</td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>Picked A Strawberry</td>
+                <td>Circletime Songs</td>
+                <td>pipo</td>
+              </tr>
+          </table>
+         </div> 
+      </section>
+    </main>
+    <footer>
+        <div class="footer-contain d-flex justify-content-around">
+            <div
+              class="footer-contain__social wow animate__animated animate__rubberBand"
+            >
+              <button><i class="bi bi-instagram"></i></button>
+              <button><i class="bi bi-facebook"></i></button>
+              <button><i class="bi bi-twitter"></i></button>
+              <button><i class="bi bi-spotify"></i></button>
+            </div>
+            <img
+              class="footer-contain__img"
+              src="https://supersimple.com/wp-content/uploads/logo-home.png"
+              alt="fitnessreal"
+              width="280px"
+            />
+        </div>
+    </footer>
+    <!-- JavaScript boostrap -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- JavaScript animate -->
+    <script src="../wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>

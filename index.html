@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="icon"
+      href="https://supersimple.com/wp-content/themes/mike-default/favicon.png"
+    />
+    <!-- animate-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- boostrap -->
+    <link rel="stylesheet" href="./boostrapmincss/bootstrap.min(sketchy).css" />
+
+    <!-- styles --> 
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- boostrap icons -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Super Simple Songs</title>
+  </head>
+  <body>
+    <header>
+      <!--------------------------  navbar ----------------------------------->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://supersimple.com/wp-content/uploads/logo-home.png" width="250px" alt="superSongs"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 wow animate__animated animate__rubberBand">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/songs.html">songs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="search-song">
+          <h2 class="search-song__title wow animate__animated animate__rubberBand">SUPER SIMPLE SONGS</h2>
+          <p class="search-song__p wow animate__animated animate__rubberBand">
+            Super Simple Songs® is a collection of original kids songs and
+            classic nursery rhymes made SIMPLE for young learners. Combining
+            captivating animation and puppetry with delightful music that kids
+            love to sing along with, Super Simple Songs makes learning simple
+            and fun!
+          </p>
+          <div class="search-song__inputs d-flex justify-content-between wow animate__animated animate__rubberBand">
+            <!------------------  search -------------->
+            <form class=" search d-flex " role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            <!------------------  select -------------->
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Choose a theme</option>
+                <option value="1">Colors</option>
+                <option value="2">Clothing</option>
+                <option value="3">Animals</option>
+                <option value="3">Bugs</option>
+                <option value="3">Calendar & time</option>
+              </select>
+            <!------------------  select -------------->
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Choose a playist</option>
+                <option value="1">Songs about overcoming fears</option>
+                <option value="2">Chants</option>
+                <option value="3">Silly songs</option>
+                <option value="3">Cumulative songs</option>
+              </select>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="section-songs" id="home">
+            <div class="section-songs__card d-flex flex-column align-items-center  wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2022/07/songs_happybirthday_friendlyfriends_thumbnail_website-800x800_en-300x300.jpg" alt="img">
+                <span>Happy Birthday To You</span>
+            </div>
+            <div class="section-songs__card d-flex flex-column align-items-center wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2022/07/songs_pizzaparty-caitie_thumbnail_en_web_800px-300x300.jpg" alt="img">
+                <span>Pizza Party | featuring Caitie</span>
+            </div>
+            <div class="section-songs__card d-flex flex-column align-items-center wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2022/07/songs_takemeouttotheballgame-puppet_thumbnail_website-800x800_en-300x300.jpg" alt="img">
+                <span>Take Me Out To The Ball Game | featuring The Super Simple Puppets</span>
+            </div>
+            <!-------------------------------->
+            <div class="section-songs__card d-flex flex-column align-items-center wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2022/07/finnytheshark_thefishgoswimming_thumbnail_website-800x800_en-300x300.jpg" alt="img">
+                <span>The Fish Go Swimming</span>
+            </div>
+            <div class="section-songs__card d-flex flex-column align-items-center wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2022/07/finnytheshark_whatsyourname_thumbnail_website-800x800_en-300x300.jpg" alt="img">
+                <span>What's Your Name? (Finny the Shark)</span>
+            </div>
+            <div class="section-songs__card d-flex flex-column align-items-center wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2021/10/songs_500ducks_thumbnail_website-800x800_en-300x300.jpg" alt="img">
+                <span>500 Ducks</span>
+            </div>
+            <!-------------------------------->
+            <div class="section-songs__card d-flex flex-column align-items-center wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2022/06/songs_onceicaughtafishalive-caitie_thumbnail_supersimpleapp_enx800-300x300.jpg" alt="img">
+                <span>Once I Caught A Fish Alive | featuring Caitie & Tobee</span>
+            </div>
+            <div class="section-songs__card d-flex flex-column align-items-center wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2022/06/songs_peanutbutterandjelly-puppets_thumbnail_website-800x800_en-300x300.jpg" alt="img">
+                <span>Peanut Butter & Jelly | featuring The Super Simple Puppets</span>
+            </div>
+            <div class="section-songs__card d-flex flex-column align-items-center wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2022/06/finnytheshark_starlightstarbright_thumbnail_website-800x800_en-300x300.jpg" alt="img">
+                <span>Star Light, Star Bright (Finny the Shark)</span>
+            </div>
+            <!------------------ -------------->
+            <div class="section-songs__card d-flex flex-column align-items-center wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2022/06/songs_weallfalldown_noodleandpals_thumbnail_website-800x800_en-300x300.jpg" alt="img">
+                <span>We All Fall Down | featuring Noodle & Pals</span>
+            </div>
+            <div class="section-songs__card d-flex flex-column align-items-center wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2022/05/songs_weregoingonarocketship_thumbnail_website-800x800_en-300x300.jpg" alt="img">
+                <span>We’re Going On A Rocket Ship</span>
+            </div>
+            <div class="section-songs__card d-flex flex-column align-items-center wow animate__animated animate__bounce">
+                <img src="https://supersimple.com/wp-content/uploads/2022/05/songs_5littlespeckledfrogs-puppets_thumbnail_website-800x800_en-300x300.jpg" alt="img">
+                <span>Five Little Speckled Frogs | featuring The Super Simple Puppets</span>
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer-contain d-flex justify-content-around">
+            <div
+              class="footer-contain__social wow animate__animated animate__rubberBand"
+            >
+              <button><i class="bi bi-instagram"></i></button>
+              <button><i class="bi bi-facebook"></i></button>
+              <button><i class="bi bi-twitter"></i></button>
+              <button><i class="bi bi-spotify"></i></button>
+            </div>
+            <img
+              class="footer-contain__img"
+              src="https://supersimple.com/wp-content/uploads/logo-home.png"
+              alt="fitnessreal"
+              width="280px"
+            />
+        </div>
+    </footer>
+    <!-- JavaScript boostrap -->
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- JavaScript animate -->
+    <script src="./wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
