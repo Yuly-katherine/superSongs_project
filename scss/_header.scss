@@ -1,0 +1,29 @@
+/* -------------Header-----------*/
+
+.navbar-toggler{
+    background-color: #F59331;
+}
+
+.navbar-toggler-icon{
+    color: $bgWhite;
+}
+
+.container-fluid{
+    background-color: $bgWhite;
+}
+
+.navbar{
+    padding-bottom: 0;
+}
+
+
+.nav-link{
+    font-size: 2rem;
+    color: #0096DB; 
+    margin-left: 10px;
+    transition:color 0.5s;
+}
+
+.nav-link:hover{
+    color: #8F3F97;
+}
